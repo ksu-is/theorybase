@@ -7,3 +7,4 @@ ID	Genre	SubGenre	KeySignatures	BPM	Instruments	BandMembers	Description
 2	Rock	SlackerRock	Cm, A♭, F	82-145	Guitar, Drums, Bass, Keyboard	1-4	Relaxed, Slightly out of tune, Lofi-delity
 3	Rock	Shoegaze	D, B, E	94-129	Guitar, Drums, Bass, Synth	1-5	Using guitar pedals to create a wall of sound
 4	Folk	Folktronica	B	109-124	Acoustic instruments, Electronic acoustic instruments	1-4	Combining acoustic and electronic instruments
+# New Section (Database in Sql Format)
