@@ -7,4 +7,21 @@ ID	Genre	SubGenre	KeySignatures	BPM	Instruments	BandMembers	Description
 2	Rock	SlackerRock	Cm, A♭, F	82-145	Guitar, Drums, Bass, Keyboard	1-4	Relaxed, Slightly out of tune, Lofi-delity
 3	Rock	Shoegaze	D, B, E	94-129	Guitar, Drums, Bass, Synth	1-5	Using guitar pedals to create a wall of sound
 4	Folk	Folktronica	B	109-124	Acoustic instruments, Electronic acoustic instruments	1-4	Combining acoustic and electronic instruments
-# New Section (Database in Sql Format)
+# New Section (Database in print Format)
+Key Signatures:E, A, C; BPM: 69-160; Instruments: Guitar, Drums, Bass; BandMembers: 1-3; Description: Minimalistic, Slow-paced, and Atmospheric approaches
+Key Signatures:Cm, A♭, F; BPM:82-145; Instruments: Guitar, Drums, Bass, Keyboard; BandMembers: 1-4; Description: Relaxed, Slightly out of tune, Lofi-delity
+Key Signatures:D, B, E; BPM: 94-129; Instruments: Guitar, Drums, Bass, Synth; BandMembers: 1-5	; Description: Using guitar pedals to create a wall of sound
+Key Signatures:B; BPM: 109-124; Instruments: 	Acoustic instruments, Electronic acoustic instruments; BandMembers:1-4; Description: Combining acoustic and electronic instruments
+# New Section (Code)
+input_test = input("Enter a Genre or Mode:")
+if "Slowcore" in input_test: print("Key Signatures:E, A, C; BPM: 69-160; Instruments: Guitar, Drums, Bass; BandMembers: 1-3; Description: Minimalistic, Slow-paced, and Atmospheric approaches")
+if "Slacker Rock" in input_test:print("Key Signatures:Cm, A♭, F; BPM:82-145; Instruments: Guitar, Drums, Bass, Keyboard; BandMembers: 1-4; Description: Relaxed, Slightly out of tune, Lofi-delity")
+if "Shoegaze" in input_test: print("Key Signatures:D, B, E; BPM: 94-129; Instruments: Guitar, Drums, Bass, Synth; BandMembers: 1-5; Description: Using guitar pedals to create a wall of sound")
+if "Folktronika" in input_test:print("Key Signatures:B; BPM: 109-124; Instruments: Acoustic instruments, Electronic acoustic instruments; BandMembers:1-4; Description: Combining acoustic and electronic instruments")
+if "Ionian" in input_test: print("Pop, Rock, and Classical")     
+if "Dorian" in input_test: print("Jazz, Folk, Rock, and Pop")
+if "Aeolian" in input_test: print("Rock, Blues, and Jazz")
+if "Mixolydian" in input_test: print("Jazz, Blues, Rock and Funk")
+if "Phrygian" in input_test: print("Flamenco, Folk, Hip-Hop and Metal")
+if "Lydian" in input_test: print("Jazz, Experimental, and Classical")
+if "Locrian" in input_test: print("Soundtracks, Metal, and Experimental")
